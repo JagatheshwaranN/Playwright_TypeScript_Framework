@@ -1,0 +1,15 @@
+[
+    {
+    
+        "test_case": "Test user registration with valid data",
+        "email": "testmagic@gmail.com",
+        "password": "admin",
+        "result": "success"
+    },
+    {
+        "test_case": "Test user registration with invalid data",
+        "email": "testuser@example.com",
+        "password": "TestPassword123",
+        "result": "failure"
+    }
+]

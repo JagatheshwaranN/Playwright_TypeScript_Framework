@@ -1,0 +1,3 @@
+test_case,email,password,result
+Test user registration with valid data,testmagic@gmail.com,admin,success
+Test user registration with invalid data,testuser@example.com,TestPassword123,failure
