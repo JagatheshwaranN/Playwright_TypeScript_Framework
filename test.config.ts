@@ -2,8 +2,8 @@ export class TestConfig {
     appUrl = "http://localhost/opencart/upload/"
 
     //valid login credentials- create your own login account
-    email = "pavanol@abc.com"
-    password = "test@123"
+    email = "testmagic@gmail.com"
+    password = "admin"
     
     //product details
     productName = "MacBook"

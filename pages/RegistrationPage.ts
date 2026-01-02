@@ -23,7 +23,7 @@ export class RegistrationPage {
         this.passwordField = page.locator('input#input-password');
         this.confirmPasswordField = page.locator('input#input-confirm');
         this.privacyPolicyCheckbox = page.locator('input[type="checkbox"]');
-        this.continueButton = page.locator('button[type="submit"]');
+        this.continueButton = page.locator('input[type="submit"]');
         this.successMessage = page.locator('div#content h1');
     }
 
