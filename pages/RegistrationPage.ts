@@ -27,7 +27,7 @@ export class RegistrationPage {
         this.successMessage = page.locator('div#content h1');
     }
 
-    async isRefisterPageAvailable(): Promise<boolean> {
+    async isRegistrationPageAvailable(): Promise<boolean> {
         let title: string = await this.page.title();
         return title.includes("Register Account");
     }
