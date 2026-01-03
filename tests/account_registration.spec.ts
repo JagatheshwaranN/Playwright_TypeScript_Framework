@@ -19,7 +19,7 @@ test.describe('Account Registration Tests', () => {
         await page.close();
     });
 
-    test('Verify Account Registration with Valid Data', async ({ page }) => {
+    test('Verify Account Registration with Valid Data', { tag: ['@regression', '@sanity'] }, async ({ page }) => {
 
         // Verify Home Page is displayed
         expect(await homePage.isHomePageAvailable()).toBeTruthy();

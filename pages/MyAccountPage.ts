@@ -13,7 +13,7 @@ export class MyAccountPage {
         this.logoutLink = page.locator('a').filter({ hasText: 'Logout' }).last()
     }   
 
-    async isMyAccountPageDisplayed(): Promise<boolean> {
+    async isMyAccountPageAvailable(): Promise<boolean> {
         return await this.myAccountHeader.isVisible();
     }
 
