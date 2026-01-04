@@ -34,7 +34,7 @@ test.describe('End-to-End User Journey Tests', () => {
     });
 
     // End-to-End Test: Registration -> Login -> Logout
-    test('should register, login, and logout successfully', async ({ page }) => {
+    test('should register, login, and logout successfully', {tag: ['@e2e']}, async ({ page }) => {
         // Navigate to Registration Page and perform registration
         const email = await performRegistration(homePage, registrationPage, myAccountPage, testConfig);
         // Navigate to Login Page and perform login

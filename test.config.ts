@@ -1,5 +1,6 @@
 export class TestConfig {
-    appUrl = "http://localhost/opencart/upload/"
+    //appUrl = "http://localhost/opencart/upload/"
+    appUrl = "https://naveenautomationlabs.com/opencart/"
 
     //valid login credentials- create your own login account
     email = "testmagic@gmail.com"

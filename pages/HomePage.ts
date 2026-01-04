@@ -13,8 +13,8 @@ export class HomePage {
     constructor(page:Page){
         this.page = page;
         this.myAccountLink = page.locator('a[title="My Account"]');
-        this.registerLink = page.locator('a[href="https://localhost/opencart/upload/index.php?route=account/register"]');
-        this.loginLink = page.locator('a[href="https://localhost/opencart/upload/index.php?route=account/login"]');
+        this.registerLink = page.locator('a:has-text("Register")')
+        this.loginLink = page.locator('a:has-text("Login")')
         this.searchBox = page.locator('input[placeholder="Search"]');
         this.searchButton = page.locator('button[class="btn btn-default btn-lg"]');
     }
