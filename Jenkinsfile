@@ -3,12 +3,12 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/JagatheshwaranN/Playwright_TypeScript_Framework.git'
-            }
-        }
+        // stage('Checkout Code') {
+        //     steps {
+        //         git branch: 'main',
+        //             url: 'https://github.com/JagatheshwaranN/Playwright_TypeScript_Framework.git'
+        //     }
+        // }
 
         stage('Install Dependencies') {
             steps {
